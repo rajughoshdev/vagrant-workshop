@@ -3,53 +3,53 @@ Vagrant is an excellent open  source tool for managing virtual machines. Vagrant
 
 ##Vagrant Commands List
 
-##### vagrant init [box-name] [box-url]
+<pre>vagrant init [box-name] [box-url]</pre>
 Initializes the current directory to be a Vagrant environment with.vagrant directory if does not already exist. 
 
-#####vagrant up 
+<pre>vagrant up </pre> 
 For the starting the  machine to create an enviroment.  
 
-#####vagrant status	 
+<pre>vagrant status</pre>	 
 For the showing machine status that is open or not. 
 
-#####vagrant halt
+<pre>vagrant halt </pre>
 For the closeing the machine.
 
-#####vagrant suspend
+<pre>vagrant suspend </pre>
 For the suspends a  machine (remembers state).
 
-#####vagrant provision	
+<pre> vagrant provision</pre>	
 For the forceing reprovisioning of the machine
 
-#####vagrant reload
+<pre>vagrant reload </pre>
 For the restarting the machine with loads the new Vagrantfile configuration.
 
-#####vagrant ssh	
+<pre>vagrant ssh </pre>	
 For the connecting to machine via SSH
 
-#####vagrant share
+<pre>vagrant share </pre>
 For the sharing your VM and provides you with the public URL
 
-#####vagrant login	
+<pre>vagrant login </pre>	
 Log in to HashiCorp's Atlas on your computer
 
-#####vagrant destroy	
+<pre>vagrant destroy </pre>	
 For the deleteing the machine. 
 
-#####vagrant -v	
+<pre>vagrant -v </pre>	
 For the knowing  the version
 
-#####vagrant global-status	
+<pre>vagrant global-statu </pre>s	
 For the knowing state of all active environments on the system for the currently logged in user.
 
-#####vagrant resume	
+<pre>vagrant resume </pre>	
 For this resumeing a suspended machine (vagrant up works just fine for this as well)
 
-#####vagrant reload --provision	
+<pre>vagrant reload --provision </pre>	
 For the restarting the machine and force provisioning.
 
-#####vagrant push -- Yes	
+<pre>vagrant push -- Yes </pre>	
 For the configuring to deploy code. 
 
-#####vagrant up --provision	
+<pre>vagrant up --provision</pre>	
 For Runing vagrant up and forces provisioning. 
