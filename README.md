@@ -1,4 +1,4 @@
-# Vagrant-Help
+# Vagrant
 Vagrant is an excellent open  source tool for managing virtual machines. Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
 
 ##Vagrant Commands List
