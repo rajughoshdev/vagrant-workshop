@@ -1,0 +1,18 @@
+#basic Configuration 
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.hostname = "raju.ghosh"
+
+# SHELL PROVISIONER Example 1
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get install -y nginx
+  SHELL
+
+# SHELL PROVISIONER Example 2 by bash file 
+config.vm.provision "shell", path: "script.sh"
+
+# SHELL PROVISIONER Example 2 by remote bash 
+config.vm.provision "shell", path: "https://example.com/provisioner.sh"
+
+end
