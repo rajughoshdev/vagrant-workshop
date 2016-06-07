@@ -1,6 +1,31 @@
 # Vagrant
 Vagrant is an excellent open  source tool for managing virtual machines. Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
 
+##Getting Started
+For the quick-start, we'll bring up a development machine on
+[VirtualBox](https://www.virtualbox.org/) because it is free and works
+on all major platforms. Vagrant can work with almost any
+system such as [OpenStack] (https://www.openstack.org/), [VMware] (https://www.vmware.com/), [Docker] (https://docs.docker.com/), etc.
+
+First, make sure your development machine has
+[VirtualBox](https://www.virtualbox.org/)
+installed. After this,
+[download and install the appropriate Vagrant package for your OS](https://www.vagrantup.com/downloads.html).
+
+To build your first virtual environment:
+
+    vagrant init ubuntu/trusty64;
+    vagrant up
+
+## Vagrant boxes
+
+Boxes are the package format for Vagrant environments. A box can be used by anyone on any platform that Vagrant supports to bring up an identical working environment. Following for finding boxes. 
+
+[Hashicorp](https://atlas.hashicorp.com/boxes/search)
+
+[Vagrantbox](http://www.vagrantbox.es/) 
+
+
 ##Vagrant Commands List
 
 <pre>vagrant init [box-name] [box-url]</pre>
