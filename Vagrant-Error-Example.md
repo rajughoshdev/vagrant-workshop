@@ -1,7 +1,7 @@
 
 #Vagrant Error Example
 
-#### Error 1 => 
+#### Error 01 :
 VirtualBox is complaining that the kernel module is not loaded.
 <pre>
 vagrant up
