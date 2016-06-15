@@ -76,10 +76,17 @@ For the restarting the machine and force provisioning.
 <pre>vagrant push -- Yes </pre>	
 For the configuring to deploy code. 
 
-<pre>vagrant up --provision</pre>	
-For Runing vagrant up and forces provisioning. 
+#Error 
+<pre>
+vagrant up
+The provider 'virtualbox' that was requested to back the machine
+'default' is reporting that it isn't usable on this system. 
+The reason is shown below:
 
-##Error 
+VirtualBox is complaining that the kernel module is not loaded. Please
+run `VBoxManage --version` or open the VirtualBox GUI to see the error
+message which should contain instructions on how to fix this error.
+</pre>
 
 ####Solution
 Run 
