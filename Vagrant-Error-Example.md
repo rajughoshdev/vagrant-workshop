@@ -1,5 +1,5 @@
 
-#Error 
+#Vagrant Error Example
 
 ###VirtualBox is complaining that the kernel module is not loaded.
 <pre>
