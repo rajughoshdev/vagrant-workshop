@@ -79,7 +79,7 @@ For the configuring to deploy code.
 <pre>vagrant up --provision</pre>	
 For Runing vagrant up and forces provisioning. 
 
-adfsadfsadf
+##Error 
 <pre>
 vagrant up
 The provider 'virtualbox' that was requested to back the machine
