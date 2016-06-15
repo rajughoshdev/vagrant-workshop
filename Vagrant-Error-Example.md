@@ -1,7 +1,8 @@
 
 #Vagrant Error Example
 
-###VirtualBox is complaining that the kernel module is not loaded.
+#### Error 1 => 
+VirtualBox is complaining that the kernel module is not loaded.
 <pre>
 vagrant up
 The provider 'virtualbox' that was requested to back the machine
@@ -13,7 +14,7 @@ run `VBoxManage --version` or open the VirtualBox GUI to see the error
 message which should contain instructions on how to fix this error.
 </pre>
 
-###Solution
+####Solution
 Just run bellow command after that vagrant up again.
 <pre>
 sudo /etc/init.d/vboxdrv setup
