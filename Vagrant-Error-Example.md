@@ -19,3 +19,9 @@ Just run bellow command after that vagrant up again.
 <pre>
 sudo /etc/init.d/vboxdrv setup
 </pre>
+
+OR 
+
+<pre>
+sudo /usr/lib/virtualbox/vboxdrv.sh setup
+</pre>
